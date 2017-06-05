@@ -1,0 +1,3 @@
+[submodule "includes/boz-mw"]
+	path = includes/boz-mw
+	url = git@github.com:valerio-bozzolan/boz-mw.git

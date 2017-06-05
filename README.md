@@ -12,7 +12,7 @@ This is the source code of a tool hosted in [Wikimedia Foundation Labs](https://
 ### Hacking
 The PHP website uses an unknown framework called [Boz-PHP](https://github.com/valerio-bozzolan/boz-php-another-php-framework).
 
-    git clone https://github.com/valerio-bozzolan/boz-php-another-php-framework.git
+    git clone --recursive https://github.com/valerio-bozzolan/boz-php-another-php-framework.git
     cp load-example.php load.php
     ./bot.php
 

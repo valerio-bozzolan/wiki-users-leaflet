@@ -65,8 +65,11 @@ define('INCLUDES', 'includes');
 
 // includes/class-$php.php
 spl_autoload_register( function($c) {
-    $path = ABSPATH . __ . INCLUDES . __ . "class-$c.php";
-    if( is_file( $path ) ) {
-        require $path;
-    }
+	$path = ABSPATH . __ . INCLUDES . __ . "class-$c.php";
+	if( is_file( $path ) ) {
+		require $path;
+	}
 } );
+
+// https://github.com/valerio-bozzolan/boz-mw
+require ABSPATH . __ . INCLUDES . __ . 'boz-mw' . __ . 'autoload.php';
